@@ -1,0 +1,16 @@
+name: JDA_Analysistask_env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.7
+  - pip
+  # Core scientific python
+  - numpy
+  - matplotlib
+  - jupyter
+  - pandas
+  - seaborn
+  - scikit-learn
+  - PTable
